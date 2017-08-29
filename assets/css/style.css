@@ -250,3 +250,25 @@ img{
   padding-bottom: 25px;
   padding-right: 25px;
 }
+#p3-card-1 {
+    width: 650px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    left: 28%;
+    background-color: white;
+    border: 1px solid black;
+    font-family: "Audiowide", Helvetica, sans-serif;
+  }
+  #p3-card-2 {
+    width: 650px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    left: 0%;
+    background-color: white;
+    border: 1px solid black;
+    font-family: "Audiowide", Helvetica, sans-serif;
+    margin-top: 200px;
+
+}
