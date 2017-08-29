@@ -13,22 +13,16 @@
   // Reference database
   var dataRef = firebase.database();
 
-  // Initial Values
+  // Initial Values:
   var name = "";
 
-  // Capture Button Click.
-  $(".button").on("click", function () {
+  $(".enjoy-css").on("click", function(event) {
     event.preventDefault();
 
-    name = $("#add-user").val().trim();
+    name = $("#name-input").val().trim();
 
     dataRef.ref().push({
       name: name,
       dataAdded: firebase.database.ServerValue.TIMESTAMP
     });
-  });
-  dataRef.ref().on("child_added", function(childSnapshot) {
-    console.log(childSnapshot.val().name);
-  ), function(errorObject) {
-    console.log("Error handled: " + errorObject.code);
   });

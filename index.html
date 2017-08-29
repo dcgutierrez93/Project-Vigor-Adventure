@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>Travel Fitness Page</title>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Hammersmith+One|Luckiest+Guy|Sigmar+One|Varela" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,6 +15,10 @@
     <link async href="http://fonts.googleapis.com/css?family=Antic" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
     <link async href="http://fonts.googleapis.com/css?family=Audiowide" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
     <link async href="http://fonts.googleapis.com/css?family=Antic" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+    <!-- Reference Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
 <body>
     <div class="container-fluid">
@@ -34,15 +37,18 @@
             <div class="row">
                 <div class="col-md-12 section2">
                     <p>Please enter your name: </p>
-                    <input class="button" id="add-user" placeholder="Your name ..." />
+                    <input type="text" class="button" id="name-input" placeholder="Your name ..." />
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 section2" >
-                    <div class="enjoy-css">Submit</div>
+                    <div class="enjoy-css" id="addUser">Submit</div>
                 </div>
             </div>
     </div>
-
+    <!-- code javascript -->
+    <script type="text/javascript" src="assets/javascript/main.js"></script>
+    <!-- Code jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
 </body>
 </html>
