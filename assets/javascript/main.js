@@ -18,11 +18,19 @@
 
   $(".enjoy-css").on("click", function(event) {
     event.preventDefault();
-
-    name = $("#name-input").val().trim();
+  
+    name = $("#add-user").val().trim();
 
     dataRef.ref().push({
       name: name,
       dataAdded: firebase.database.ServerValue.TIMESTAMP
     });
+      location.href = "info.html";
+    // Changes window to info.html
+  });
+
+  // on click button submit
+  $(".info-css").on("click", function(event){
+    // Switches the window to result.html
+    location.href = "result.html";
   });

@@ -56,7 +56,7 @@ p {
   text-shadow: 2px 2px black;
 }
 body{
-  background: #2ACE9B;
+  background: linear-gradient(#2ACE9B, #40ed85);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -94,9 +94,12 @@ img{
   text-align: center;
 }
 .options {
-  color:  black;
+  color: black;
   font-size: 30px;
   font-family: "Audiowide", Helvetica, sans-serif;
+}
+.distanceOptions {
+  font-size: 20px;
 }
 #p2-card-1 {
   width: 650px;
@@ -104,20 +107,21 @@ img{
   text-align: center;
   position: relative;
   left: 20px;
-  background-color: white;
+  background: #8be0e0;
   border: 1px solid black;
   font-family: "Audiowide", Helvetica, sans-serif;
-
+  border-radius: 10px 10px 10px 10px;
 }
 #p2-card-2 {
   width: 650px;
   height: 200px;
   text-align: center;
   position: relative;
-  left: 80px;
-  background-color: white;
+  left: 60px;
+  background: #8be0e0;
   border: 1px solid black;
   font-family: "Audiowide", Helvetica, sans-serif;
+  border-radius: 10px 10px 10px 10px;
 
 }
 #p2-card-3 {
@@ -126,21 +130,23 @@ img{
   text-align: center;
   position: relative;
   left: 20px;
-  background-color: white;
+  background: #8be0e0;
   border: 1px solid black;
+  border-radius: 10px 10px 10px 10px;
   font-family: "Audiowide", Helvetica, sans-serif;
-
 }
 #p2-card-4 {
   width: 650px;
   height: 200px;
   text-align: center;
   position: relative;
-  left: 80px;
-  background-color: white;
+  left: 60px;
+  background: #8be0e0;
   border: 1px solid black;
   font-family: "Audiowide", Helvetica, sans-serif;
+  border-radius: 10px 10px 10px 10px;
 }
+#p2-card-5{}
 .button {
   display: inline-block;
   -webkit-box-sizing: border-box;
@@ -224,7 +230,6 @@ img{
   -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
   transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
 }
-
 .enjoy-css:hover {
   color: rgba(255,255,255,1);
   background: rgb(30, 205, 151);
@@ -237,6 +242,44 @@ img{
   -moz-transition: none;
   -o-transition: none;
   transition: none;
+}
+.info-css:hover {
+  color: rgba(255,255,255,1);
+  background: rgb(30, 205, 151);
+}
+
+.info-css:active {
+  border: 2px solid rgba(33,224,163,1);
+  background: rgba(33,224,163,1);
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.info-css {
+ -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: 2px solid rgba(255,255,255,0.81);
+  color: rgba(255,255,255,0.81);
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  font: normal 37px/70px "Audiowide", Helvetica, sans-serif;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 1px;
+  background: rgba(0,0,0,0);
+  padding-bottom: 16px;
+  -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
 }
 #kid {
   height: 300px;
@@ -251,24 +294,25 @@ img{
   padding-right: 25px;
 }
 #p3-card-1 {
-    width: 650px;
-    height: 200px;
-    text-align: center;
-    position: relative;
-    left: 28%;
-    background-color: white;
-    border: 1px solid black;
-    font-family: "Audiowide", Helvetica, sans-serif;
-  }
-  #p3-card-2 {
-    width: 650px;
-    height: 200px;
-    text-align: center;
-    position: relative;
-    left: 0%;
-    background-color: white;
-    border: 1px solid black;
-    font-family: "Audiowide", Helvetica, sans-serif;
-    margin-top: 200px;
-
+  width: 650px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  left: 28%;
+  font-family: "Audiowide", Helvetica, sans-serif;
+  background: #8be0e0;
+  border: 1px solid black;
+  border-radius: 10px 10px 10px 10px;
+}
+#p3-card-2 {
+  width: 650px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  left: 0%;
+  font-family: "Audiowide", Helvetica, sans-serif;
+  margin-top: 200px;
+  background: #8be0e0;
+  border: 1px solid black;
+  border-radius: 10px 10px 10px 10px;
 }
