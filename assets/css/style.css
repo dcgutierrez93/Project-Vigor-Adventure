@@ -1,13 +1,14 @@
- #section1 {
-width: 100%;
+#section1 {
+  width: 100%;
+  text-shadow: 2px 2px black;
 } 
 #header {
-    text-align: center;
-    font-family: "Audiowide", Helvetica, sans-serif;
-    font-style: oblique;
-    font: bold;
-    font-size: 60px;
-    color: white;
+  text-align: center;
+  font-family: "Audiowide", Helvetica, sans-serif;
+  font-style: oblique;
+  font: bold;
+  font-size: 60px;
+  color: white;
 }
 .gradient-text {
   -webkit-box-sizing: content-box;
@@ -37,99 +38,108 @@ width: 100%;
   position: relative;
   right: 50px;
   padding-left: 50px;
-
 }
 #subHeader {
-    text-align: center;
-    font-family: "Audiowide", Helvetica, sans-serif;
-    font-style: oblique;
-    font: bold;
-    font-size: 20px;
-    color: white;
+  text-align: center;
+  font-family: "Audiowide", Helvetica, sans-serif;
+  font-style: oblique;
+  font: bold;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px black;
 }
 
 p {
-    font-family: "Audiowide", Helvetica, sans-serif;
-    color: white;
+  font-family: "Audiowide", Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  text-shadow: 2px 2px black;
 }
 body{
-    background: #2ACE9B;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    
+  background: #2ACE9B;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 img{
 }
 .section2 {
-    text-align: center;
-    position: relative;
-    top: 120px;
-    width: 300px;
-    height: 100px;
-    left: 40%;
-    right: 0%;
-    background-image: url(http://ak8.picdn.net/shutterstock/videos/14663869/thumb/1.jpg);
-    border:  8px black;
+  text-align: center;
+  position: relative;
+  top: 120px;
+  width: 300px;
+  height: 100px;
+  left: 40%;
+  right: 0%;
+  border-radius: 10px 10px 0px 0px;
+  background-image: url(http://ak8.picdn.net/shutterstock/videos/14663869/thumb/1.jpg);
+  border:  8px black;
+}
+.section3 {
+  text-align: center;
+  position: relative;
+  top: 18px;
+  right: 15px;
+  width: 300px;
+  height: 100px;
+  border-radius: 0px 0px 10px 10px;
+  background-image: url(http://ak8.picdn.net/shutterstock/videos/14663869/thumb/1.jpg);
+  border:  8px black;
 }
 #dropmenu {
-    text-align: center;
-    width: 180px;
-    
-    font-family: "Audiowide", Helvetica, sans-serif;
+  text-align: center;
+  width: 180px;
+  font-family: "Audiowide", Helvetica, sans-serif;
 }
 .choices {
-    text-align: center;
+  text-align: center;
 }
 .options {
-    
-    color:  black;
-    font-size: 30px;
-    font-family: "Audiowide", Helvetica, sans-serif;
+  color:  black;
+  font-size: 30px;
+  font-family: "Audiowide", Helvetica, sans-serif;
 }
 #p2-card-1 {
-    width: 650px;
-    height: 200px;
-    text-align: center;
-    position: relative;
-    left: 20px;
-    background-color: white;
-    border: 1px solid black;
-    font-family: "Audiowide", Helvetica, sans-serif;
+  width: 650px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  left: 20px;
+  background-color: white;
+  border: 1px solid black;
+  font-family: "Audiowide", Helvetica, sans-serif;
 
 }
 #p2-card-2 {
-    width: 650px;
-    height: 200px;
-    text-align: center;
-    position: relative;
-    left: 200px;
-    background-color: white;
-    border: 1px solid black;
-    font-family: "Audiowide", Helvetica, sans-serif;
+  width: 650px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  left: 80px;
+  background-color: white;
+  border: 1px solid black;
+  font-family: "Audiowide", Helvetica, sans-serif;
 
 }
 #p2-card-3 {
-    width: 650px;
-    height: 200px;
-    text-align: center;
-    position: relative;
-    left: 20px;
-    background-color: white;
-    border: 1px solid black;
-    font-family: "Audiowide", Helvetica, sans-serif;
+  width: 650px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  left: 20px;
+  background-color: white;
+  border: 1px solid black;
+  font-family: "Audiowide", Helvetica, sans-serif;
 
 }
 #p2-card-4 {
-    width: 650px;
-    height: 200px;
-    text-align: center;
-    position: relative;
-    left: 200px;
-    background-color: white;
-    border: 1px solid black;
-    font-family: "Audiowide", Helvetica, sans-serif;
-
+  width: 650px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  left: 80px;
+  background-color: white;
+  border: 1px solid black;
+  font-family: "Audiowide", Helvetica, sans-serif;
 }
 .button {
   display: inline-block;
@@ -166,7 +176,7 @@ img{
   transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
 }
 
-.button:hover {
+.button:hover {  
   position: static;
   margin: 0;
   padding: 0 20px;
@@ -227,4 +237,16 @@ img{
   -moz-transition: none;
   -o-transition: none;
   transition: none;
+}
+#kid {
+  height: 300px;
+  width: 450px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
+#fat {
+  height: 300px;
+  width: 450px;
+  padding-bottom: 25px;
+  padding-right: 25px;
 }
